@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../image_display.srcs/sources_1/new/top.v" \
+"../../../../image_display.srcs/sources_1/new/h_counter.v" \
+"../../../../image_display.srcs/sources_1/new/v_counter.v" \
+"../../../../image_display.srcs/sources_1/new/oper.v" \
+"../../../../image_display.srcs/sources_1/new/clock_divider.v" \
+"../../../../image_display.srcs/sim_1/new/testtop.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

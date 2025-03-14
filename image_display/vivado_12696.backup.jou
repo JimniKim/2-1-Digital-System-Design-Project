@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun  8 19:09:59 2022
+# Process ID: 12696
+# Current directory: C:/Users/matth/Desktop/image_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33296 C:\Users\matth\Desktop\image_display\image_display.xpr
+# Log file: C:/Users/matth/Desktop/image_display/vivado.log
+# Journal file: C:/Users/matth/Desktop/image_display\vivado.jou
+# Running On: DESKTOP-OFMIKN9, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 33739 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/matth/Desktop/image_display/image_display.xpr
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+save_wave_config {C:/Users/matth/Desktop/image_display/testtop_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/matth/Desktop/image_display/testtop_behav.wcfg
+source testtop.tcl
+run all
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
